@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加账单"
+            android:textSize="40dip"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="子类别"
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_category"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金钱    "
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_money"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日期    "
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_date"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注    "
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_detail"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15.0dip">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/backagain"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dip"
+            android:text="返回" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

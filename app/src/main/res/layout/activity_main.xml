@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img01"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户登录"
+            android:textSize="40dip"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/uname"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码    "
+            android:textSize="30dip"
+            />
+        <EditText
+            android:layout_width="220dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15.0dip">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginLeft="40dip"
+            android:text="注册" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
